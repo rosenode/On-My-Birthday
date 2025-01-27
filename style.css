@@ -21,3 +21,39 @@ padding: 30px 0px 30px 0px;
     width: 40%;
     height: auto;
 }
+
+#secondRow {
+    border-color: #A6C6D4;
+    background-color: #F0FCFD;
+    border-style: outset;
+    border-width: 15px;
+    font-family: sans-serif;
+    text-align: center;
+}
+#webDes1 #webDes2 {
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+#redText {
+    color:red;
+}
+
+#thirdRow {
+    background-color: #010101;
+    border-color: #B84513;
+    border-width: 3px;
+    border-style:inset;
+}
+
+#firstButton, #secondButton, #thirdButton, #fourthButton, #fifthButton {
+    background-color: #e6872e;
+    border-color: #F0FCFD;
+    color:#F0FCFD;
+    padding: 10px;
+}
+
+#outputRow {
+    background-color: #130804;
+    height: 100vh;
+}
