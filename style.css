@@ -57,3 +57,25 @@ padding: 30px 0px 30px 0px;
     background-color: #130804;
     height: 100vh;
 }
+
+#eventTitle {
+    color: rgb(255, 187, 0);
+}
+
+#eventHeader {
+    color: white;
+}
+
+#infoText {
+    color: rgb(207, 181, 151);
+}
+
+#infoLabel {
+    color:rgb(177, 151, 121);
+}
+
+#eventImage {
+    height: 50vh;
+    width: auto;
+    border-style: inset;
+}

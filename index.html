@@ -41,16 +41,16 @@
     </div>
   </div>
 
-  <div id="thirdRow"> <!--Add function onclick.-->
+  <div id="thirdRow"> <!--Finish functions and importing info + images. If there's leftover time; add CSS animation for event title appearing.-->
     <div class="row">
       <div class="col-1"></div>
-      <div class="col-2"><button type="button" id="firstButton">The First Atomic Bomb</button></div>
-      <div class="col-2"><button type="button" id="secondButton">Thanksgiving
+      <div class="col-2"><button type="button" id="firstButton" onclick="changeImageAtomic(), changeTitleAtomic(), changeInfoAtomic()">The First Atomic Bomb</button></div>
+      <div class="col-2"><button type="button" id="secondButton" onclick="changeImageProc(), changeTitleProc(), changeInfoProc()">Thanksgiving
         Proclamation</button></div>
-      <div class="col-2"><button type="button" id="thirdButton">Edgar Allan Poe’s Death</button></div>
-      <div class="col-2"><button type="button" id="fourthButton">The Battle of
+      <div class="col-2"><button type="button" id="thirdButton" onclick="changeImagePoe(), changeTitlePoe(), changeInfoPoe()">Edgar Allan Poe’s Death</button></div>
+      <div class="col-2"><button type="button" id="fourthButton" onclick="changeImageBattle(), changeTitleBattle(), changeInfoBattle()">The Battle of
         Philippi</button></div>
-      <div class="col-2"><button type="button" id="fifthButton">Iraq Wins
+      <div class="col-2"><button type="button" id="fifthButton" onclick="changeImageIraq(), changeTitleIraq(), changeInfoIraq()">Iraq Wins
         Independence</button></div>
       <div class="col-1"></div>
     </div>
@@ -60,24 +60,24 @@
 
   <div id="outputRow">
     <div class="row">
-      <div class="col-6" id="outputDesc"> <!--Change margins & padding.-->
-        <h3>[PICK AN EVENT!]</h3>
-        <h1>On October 3rd...</h1>
+      <div class="col-6" id="outputDesc"> <!--Change font family, size. Decorate text.-->
+        <h3 id="eventTitle">[PICK AN EVENT!]</h3>
+        <h1 id="eventHeader">On October 3rd...</h1>
         <p id="infoText">Info will show here.</p>
       </div>
       <div class="col-1"></div>
       <div class="col-5" id="imageColumn">
-        <img src="placeholder.png"> <!--Import placeholder.-->
-        <br><p>Info will show here.</p>
+        <img src="placeholder.jpg" class="responsive" id="eventImage">
+        <br><p id="infoLabel">Info will show here.</p>
       </div>
     </div>
   </div>
 
 </body>
 
-<!--Use https://www.youtube.com/watch?v=TXcjupbEst4 for reference going forward.-->
-
-
+<!--ADD A FOOTER!!!-->
+<!--Fill the empty space if there's leftover time.-->
+<!--Review and check off requirements before submitting.-->
 
 
 
