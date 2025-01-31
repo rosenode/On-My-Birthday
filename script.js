@@ -14,54 +14,54 @@ function changeInfoAtomic() {
 
 function changeImageProc() {
     var img = document.getElementById('eventImage');
-    img.src = '';
+    img.src = 'proclamation.png';
 }
 function changeTitleProc() {
     document.getElementById('eventTitle').innerHTML="THE THANKSGIVING PROCLAMATION";
 }
 function changeInfoProc() {
     document.getElementById('infoText').innerHTML="During his administration, Abraham Lincoln authorized the permanence of the national day of Thanksgiving on October 3rd, 1863. This was first brought to his attention by a magazine editor named Sarah Josepha Hale, who addressed the desire of the American people to have an official day reserved for Thanksgiving brought to national recognition.";
-    document.getElementById('infoLabel').innerHTML="";
+    document.getElementById('infoLabel').innerHTML="A picture representing the proclamation.";
 }
 
 /////////////////////////////////////////////
 
 function changeImagePoe() {
     var img = document.getElementById('eventImage');
-    img.src = '';
+    img.src = 'poe.jpg';
 }
 function changeTitlePoe() {
     document.getElementById('eventTitle').innerHTML="THE DAY OF EDGAR ALLAN POE'S DEATH";
 }
 function changeInfoPoe() {
     document.getElementById('infoText').innerHTML="Edgar Allan Poe, a famous short-story writer renowned for his poems “The Raven” and “To Helen,”  was found dead under the influence of an intoxicant beneath a gutter. His mysterious death caused many to speculate the cause; meeting unsavory people, rabies, a brain tumor, carbon monoxide poisoning, or maybe even mercury poisoning. Overall, it’s a death that has left many doctors and fans pondering.";
-    document.getElementById('infoLabel').innerHTML="";
+    document.getElementById('infoLabel').innerHTML="A picture of Poe and his tombstone.";
 }
 
 /////////////////////////////////////////////
 
 function changeImageBattle() {
     var img = document.getElementById('eventImage');
-    img.src = '';
+    img.src = 'philipp.jpg';
 }
 function changeTitleBattle() {
     document.getElementById('eventTitle').innerHTML="THE BATTLE OF PHILIPPI";
 }
 function changeInfoBattle() {
     document.getElementById('infoText').innerHTML="The Battle of Philippi was the climactic battle that followed the assassination of Julius Caesar, some time in 44 BCE. The Battle of Philippi brought ensuing chaos and confusion, proving to be a brutal killing match and the destruction of its old Republican constitution. Caesar loyalists seized control of Rome and its western provinces, setting out to quell its rebellions. The Triumvirates came out victorious against the optimates, having launched a successful frontal assault on October 3rd.";
-    document.getElementById('infoLabel').innerHTML="";
+    document.getElementById('infoLabel').innerHTML="An illustration of the Philippi war between the triumvirates and the optimates.";
 }
 
 /////////////////////////////////////////////
 
 function changeImageIraq() {
     var img = document.getElementById('eventImage');
-    img.src = '';
+    img.src = 'iraq.jpg';
 }
 function changeTitleIraq() {
     document.getElementById('eventTitle').innerHTML="IRAQ WINS INDEPENDENCE";
 }
 function changeInfoIraq() {
     document.getElementById('infoText').innerHTML="The British had first seized Iraq from Ottoman Turkey during WWI, granted a mandate by the League of Nations to govern it in 1920. Twelve years later, under the League of Nations, Iraq would be granted a termination of Britain’s mandate for its admission- officially making Iraq an independent nation.";
-    document.getElementById('infoLabel').innerHTML="";
+    document.getElementById('infoLabel').innerHTML="The Iraq people taking down a statue, marking the end of a regime.";
 }
